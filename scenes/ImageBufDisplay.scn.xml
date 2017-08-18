@@ -1,0 +1,32 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<dmetric>720.0,1280.0</dmetric>
+	<Scene sr="sceneImageBufDisplay">
+		<cdate>1487635183675</cdate>
+		<edate>1488900483014</edate>
+		<heightLand>720</heightLand>
+		<heightPort>-1</heightPort>
+		<nme>ImageBufDisplay</nme>
+		<widthLand>1280</widthLand>
+		<widthPort>-1</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>427,260,425,225,0,0,1280,720</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>file:///storage/emulated/0/DCIM/Tasker/tasker_orig.jpg</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">ImageBufDisplay</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+</TaskerData>

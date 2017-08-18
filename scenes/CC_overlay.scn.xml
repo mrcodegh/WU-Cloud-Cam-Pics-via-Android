@@ -1,0 +1,266 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<dmetric>720.0,1280.0</dmetric>
+	<Scene sr="sceneCC overlay">
+		<cdate>1480806510740</cdate>
+		<edate>1501789905118</edate>
+		<heightLand>720</heightLand>
+		<heightPort>832</heightPort>
+		<nme>CC overlay</nme>
+		<widthLand>1280</widthLand>
+		<widthPort>467</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>327,285,425,250,0,0,402,60</geom>
+			<Str sr="arg0" ve="3">Location</Str>
+			<Str sr="arg1" ve="3">College &amp; Antioch  N↑</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#28000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>727,385,425,250,1102,0,178,60</geom>
+			<Str sr="arg0" ve="3">Time</Str>
+			<Str sr="arg1" ve="3">%TIME1_12HR:%TIME2</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#28000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>777,385,425,250,780,620,80,85</geom>
+			<Str sr="arg0" ve="3">Windir</Str>
+			<Str sr="arg1" ve="3">%Windirtxt</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>752,410,450,250,1027,620,130,85</geom>
+			<Str sr="arg0" ve="3">Rain</Str>
+			<Str sr="arg1" ve="3">%rainofdaily</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>777,410,425,250,1150,620,70,85</geom>
+			<Str sr="arg0" ve="3">in</Str>
+			<Str sr="arg1" ve="3">in</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>677,435,425,225,480,620,80,85</geom>
+			<Str sr="arg0" ve="3">Slash</Str>
+			<Str sr="arg1" ve="3">/ G</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>927,560,353,160,860,620,100,85</geom>
+			<Str sr="arg0" ve="3">UVI</Str>
+			<Str sr="arg1" ve="3">UVI</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>977,510,303,210,970,620,80,85</geom>
+			<Str sr="arg0" ve="3">UVIval</Str>
+			<Str sr="arg1" ve="3">%uvi</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>877,385,403,225,822,0,277,60</geom>
+			<Str sr="arg0" ve="3">Date</Str>
+			<Str sr="arg1" ve="3">%DATE</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#28000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>827,460,425,250,40,620,100,85</geom>
+			<Str sr="arg0" ve="3">Temp</Str>
+			<Str sr="arg1" ve="3">%outtemp</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>677,410,425,225,210,620,70,85</geom>
+			<Str sr="arg0" ve="3">Humid</Str>
+			<Str sr="arg1" ve="3">%outhumi</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>602,410,425,250,140,620,40,85</geom>
+			<Str sr="arg0" ve="3">F</Str>
+			<Str sr="arg1" ve="3">F</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>652,410,425,250,280,620,40,85</geom>
+			<Str sr="arg0" ve="3">Prcnt</Str>
+			<Str sr="arg1" ve="3">%</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>652,385,425,250,380,620,100,85</geom>
+			<Str sr="arg0" ve="3">Windavg</Str>
+			<Str sr="arg1" ve="3">%avgwind</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="6"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>727,410,425,225,670,620,110,85</geom>
+			<Str sr="arg0" ve="3">MPH</Str>
+			<Str sr="arg1" ve="3">MPH</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>777,435,425,225,560,620,120,85</geom>
+			<Str sr="arg0" ve="3">Windgust</Str>
+			<Str sr="arg1" ve="3">%gustspeed</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">CC overlay</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+</TaskerData>
