@@ -5,6 +5,7 @@ Tasker Profiles, Tasks, and Scenes to periodically take pictures, caption with l
 Requirements:
 - Old Android phone - this code is set to Galaxy S3 screen size @ 1080x720.
 - Rooted phone.  Google for root methods for your model - can be risky if not done right and may harm phone.
+- Phone modified for boot on charge connect.  Google playlpm boot mod for older Samsungs.
 - Tasker app.  Google Play Store
 - Busybox  Google Play Store (1.24.2 allows wget to work with Android 4.3; 1.27.1 works with Android 7.0)
 
