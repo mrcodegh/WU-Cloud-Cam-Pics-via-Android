@@ -1,0 +1,52 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof11" ve="2">
+		<cdate>1487600218799</cdate>
+		<clp>true</clp>
+		<edate>1514338875319</edate>
+		<id>11</id>
+		<mid0>17</mid0>
+		<nme>Nightly</nme>
+		<Time sr="con0">
+			<fh>1</fh>
+			<fm>0</fm>
+			<th>1</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Task sr="task17">
+		<cdate>1511274705016</cdate>
+		<edate>1513623745754</edate>
+		<id>17</id>
+		<nme>Nightly</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CalcSunrise</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">192.168.1.176:8080</Str>
+			<Str sr="arg1" ve="3">/weatherstation/purgews1400.php</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Tasker/log/wd.txt</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
