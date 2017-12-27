@@ -1,13 +1,15 @@
 # WU-Cloud-Cam-Pics-with-Tasker
 
-Tasker Profiles, Tasks, and Scenes to periodically take pictures, caption with local network WS-1400-IP weather station data and upload to Weather Underground.  This requires a rooted phone and busybox installed.  Currently the Pic Caption task is scheduled to run every 5 minutes.  If the uploaded jpg image size is less than a threshold then it is considered night and upload frequency is reduced to every 30 minutes.  jpg compression quality is optimized to stay below Weather Underground's 150Kbyte limit.
+Tasker Profiles, Tasks, and Scenes to periodically take pictures, caption with local network WS-1400-IP weather station data and upload to Weather Underground.  This requires a rooted phone and busybox installed.  Currently the Pic Caption task is scheduled to run every 2 minutes.  WU ftp upload frequency is 6 minutes just before sunrise and after sunset from/till dark. Upload frequency is as long as 32 minutes at night and during periods of low solar radiation change - sunny or thick overcast.  This is done to reduce load on WU FTP server.  jpg compression quality is optimized to stay below Weather Underground's 150Kbyte limit.
+
+See also SoilSensor repository which contains updateweatherstation.php (used by Pic Caption task).
 
 Requirements:
 - Old Android phone - this code is set to Galaxy S3 screen size @ 1080x720.
 - Rooted phone.  Google for root methods for your model - can be risky if not done right and may harm phone.
 - Phone modified for boot on charge connect.  Google playlpm boot mod for older Samsungs.
 - Tasker app.  Google Play Store
-- Busybox  Google Play Store (1.24.2 allows wget to work with Android 4.3; 1.27.1 works with Android 7.0)
+- Busybox  Google Play Store
 
 --- If mounted outside:
 - Direct connect to battery (current limited, regulated 4v) if phone shuts down charging at extreme temps - do this only if comfortable.
