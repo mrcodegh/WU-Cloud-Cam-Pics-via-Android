@@ -1,0 +1,204 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Task sr="task20">
+		<cdate>1501872400178</cdate>
+		<edate>1514335677248</edate>
+		<id>20</id>
+		<nme>ChkWuPicSend</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>assuming 2 min call rate</label>
+			<Str sr="arg0" ve="3">%picdelaymin</Str>
+			<Str sr="arg1" ve="3">32</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%Sunrisesec</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>6</op>
+					<rhs>%Sunsetsec</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%picdelaymin</Str>
+			<Str sr="arg1" ve="3">6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%solarradaccelavg</lhs>
+					<op>6</op>
+					<rhs>20</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%picdelaymin</Str>
+			<Str sr="arg1" ve="3">32-(round (%solarradaccelavg*28/20))</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%Lightstartsec</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>6</op>
+					<rhs>%Lightendsec</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%picdelaymin</Str>
+			<Str sr="arg1" ve="3">6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%takepic</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%minsincelastpic</Str>
+			<Str sr="arg1" ve="3">round ((%TIMES-%SolarLastPicSec)/60)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%minsincelastpic</lhs>
+					<op>7</op>
+					<rhs>%picdelaymin</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%minsincelastpic</lhs>
+					<op>0</op>
+					<rhs>%picdelaymin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">192.168.1.176:8080</Str>
+			<Str sr="arg1" ve="3">/weatherstation/wxstationlastupdate.php</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%takepic</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%takepic</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%HTTPD</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%solarraddiff</Str>
+			<Str sr="arg1" ve="3">%HTTPD10-%SolarRadLast</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SolarRadLast</Str>
+			<Str sr="arg1" ve="3">%HTTPD10</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%solarradaccel</Str>
+			<Str sr="arg1" ve="3">%solarraddiff-%SolarRadDiffLast</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SolarRadDiffLast</Str>
+			<Str sr="arg1" ve="3">%solarraddiff</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SolarRadAccelTotal</Str>
+			<Str sr="arg1" ve="3">(abs (%solarradaccel)*256 + (%SolarRadAccelTotal *3))/4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%solarradaccelavg</Str>
+			<Str sr="arg1" ve="3">%SolarRadAccelTotal/256</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
