@@ -1,0 +1,3 @@
+#!/system/bin/sh
+sleep 60
+/system/bin/reboot
