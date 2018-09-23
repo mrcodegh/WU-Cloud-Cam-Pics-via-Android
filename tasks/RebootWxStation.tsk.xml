@@ -1,0 +1,18 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Task sr="task24">
+		<cdate>1518722031500</cdate>
+		<edate>1521927210846</edate>
+		<id>24</id>
+		<nme>RebootWxStation</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">(sleep 4;echo admin;sleep 4;echo admin;sleep 2;echo reboot;sleep 2)|telnet 192.168.1.175</Str>
+			<Int sr="arg1" val="20"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
