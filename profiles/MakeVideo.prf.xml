@@ -1,0 +1,31 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof29" ve="2">
+		<cdate>1536122015140</cdate>
+		<edate>1537735458251</edate>
+		<id>29</id>
+		<mid0>28</mid0>
+		<nme>MakeVideo</nme>
+		<Time sr="con0">
+			<fh>23</fh>
+			<fm>3</fm>
+			<th>23</th>
+			<tm>3</tm>
+		</Time>
+	</Profile>
+	<Task sr="task28">
+		<cdate>1535935723921</cdate>
+		<edate>1537706079151</edate>
+		<id>28</id>
+		<nme>MakeVideo</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">nohup su -c nice -n 19 /data/data/ffmpeg/ffmpeg -y -r 10 -i /sdcard/DCIM/Tasker/screencapcopy%d.png -c:v libx264 -vf "transpose=2" /sdcard/DCIM/Tasker/cloudvid/cv%DATE.mp4 &amp;</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
