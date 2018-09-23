@@ -11,6 +11,7 @@ Requirements:
 - Tasker app.  Google Play Store ($3)
 - Busybox  Google Play Store (free)
 - FolderSynce  Google Play Store (free)
+- Chrome Browser  Google Play Store (free) Renders wx history graph from 127.0.0.1/weatherstation/wx_graph.h and downloads
 - Copy https://github.com/emakovsky/ffmpeg-android/blob/master/FFmpegAndroid/assets/armeabi-v7a/ffmpeg into /data/data/ffmpeg (chmod 755 to allow execute).
 
 --- If mounted outside:
