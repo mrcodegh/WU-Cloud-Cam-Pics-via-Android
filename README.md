@@ -9,6 +9,7 @@ Requirements:
 - Rooted phone.  Google for root methods for your model - can be risky if not done right and may harm phone.
 - Phone modified for boot on charge connect.  Google playlpm boot mod for older Samsungs.
 - Tasker app.  Google Play Store ($3)
+- Bit Web Server ($3)
 - Busybox  Google Play Store (free)
 - FolderSynce  Google Play Store (free)
 - Chrome Browser  Google Play Store (free) Renders wx history graph from 127.0.0.1/weatherstation/wx_graph.h and downloads
